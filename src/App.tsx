@@ -153,11 +153,11 @@ function App() {
       <div className="flex w-80 mx-auto items-center mb-8 mt-12">
         <h1 className="text-xl grow font-bold dark:text-white">{GAME_TITLE}</h1>
         <SunIcon
-          className="h-6 w-6 cursor-pointer dark:stroke-white"
+          className="h-6 w-6 cursor-pointer dark:stroke-white mr-1"
           onClick={() => handleDarkMode(!isDarkMode)}
         />
         <InformationCircleIcon
-          className="h-6 w-6 cursor-pointer dark:stroke-white"
+          className="h-6 w-6 cursor-pointer dark:stroke-white mr-1"
           onClick={() => setIsInfoModalOpen(true)}
         />
         <ChartBarIcon
